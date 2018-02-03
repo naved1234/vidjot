@@ -1,1 +1,2 @@
-# Vidjot An app to create video ideas
+# Vidjot 
+An app to create video ideas
