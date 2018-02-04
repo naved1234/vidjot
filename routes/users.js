@@ -8,7 +8,7 @@ const Idea = mongoose.model('ideas');
 
 // User Login Route
 router.get('/login', (req, res) => {
-  res.send('login');
+  res.render('users/login');
 });
 
 // User Register Route
