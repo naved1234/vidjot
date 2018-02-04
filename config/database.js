@@ -1,6 +1,8 @@
 if(process.env.NODE_ENV == 'production') {
+    const dbuser = 'naved1234';
+    const dbpassword = 'n@ved786';
     module.exports = {
-        mongoURI: 'mongodb://naved1234:n@ved786@ds225038.mlab.com:25038/vidjot-live'
+        mongoURI: 'mongodb://'+dbuser+':'+dbpassword+'@ds225038.mlab.com:25038/vidjot-live'
     };
 } else {
     module.exports = {
